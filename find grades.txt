@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int a;
+  cout<<"Enter your Percentage ";
+  cin >>a;
+  a=a/10;
+  switch(a){ 
+      case 10: cout<<" A+ grade";
+           break;
+     case 9: cout<<"A grade";
+           break;
+      case 8: cout<<"B grade";
+         break;
+       
+      case 7: cout<<"C grade ";
+        break;
+         case 6: cout<<"D grade ";
+         break;
+         default: cout<<"fail";
+         break;
+  }
+  
+    return 0;
+}
